@@ -121,6 +121,8 @@ STATICFILES_DIRS = [
       os.path.join(BASE_DIR,'recipeapp/build/static'),
 
 ]
+MEDIA_URLS ='static/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'recipeapp/build/static/media')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
